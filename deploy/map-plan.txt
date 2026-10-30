@@ -1,0 +1,28 @@
+Mobile Survival starter map
+===========================
+
+Target: Medium world, normal difficulty, vanilla mobile clients.
+
+Spawn and safe hub
+- Build a compact spawn platform near the initial spawn point.
+- Place guide, nurse, merchant, and storage buildings around the hub.
+- Use non-corruptible blocks and walls for the hub shell.
+- Keep a second, clearly marked emergency shelter below the hub.
+
+Travel and activity zones
+- East road: surface exploration and early-game resource route.
+- West road: fishing, housing expansion, and later NPC housing.
+- Underground entrance: mine access with signs and return platforms.
+- Arena: a separate open area for events and boss fights, away from homes.
+- Farms: place mob, herb, and fishing farms outside the hub and arena.
+
+Mobile-safe protection
+- Use walls, doors, signs, locked chests, and a server password.
+- Keep valuable storage inside the hub and back up the world before major builds.
+- Do not advertise a building as server-protected: vanilla mobile has no
+  server-side region protection or permission plugin.
+
+Implementation
+- Generate or build the world with the official mobile-compatible client.
+- Copy the resulting .wld file to /var/lib/terraria/worlds/ as the terraria user.
+- Set world= in serverconfig.txt and verify the exact client/server versions.

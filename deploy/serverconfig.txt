@@ -1,0 +1,14 @@
+world=/var/lib/terraria/worlds/terraria.wld
+autocreate=2
+worldname=Terraria Mobile Survival
+secure=1
+maxplayers=8
+port=7777
+password=
+motd=Welcome. Please report issues to the server owner.
+language=en-US
+priority=1
+autopause=1
+worldrollbackstokeep=2
+backup=1
+banlist=/var/lib/terraria/banlist.txt
